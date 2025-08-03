@@ -8,7 +8,7 @@ import os
 q = queue.Queue()
 
 # Path to your upgraded Vosk model
-model_path = "vosk-model-en-us-0.22"
+model_path = "vosk-model-en-us-0.22-lgraph"
 
 # Ensure the model directory exists
 if not os.path.exists(model_path):
